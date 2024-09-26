@@ -5,21 +5,27 @@ BODY {
     color:#444
     font-weight:400;
 }
-h1 {
+/*change h1 here right? Clarify with professor next class */
+#name {
     font-size:3em;
     text-transform:uppercase;
     text-align:center;
-    color:#33458e
+    color:#33458e;
+    border-bottom: 1px solid #33458e;
+    border-bottom-width: 60%;
+    min-width: 300px;
+    margin:0px auto;
 }
 strong {
     color:#33458e;
     text-transform:uppercase;
     font-size:1.5em;
 }
-h2{
+.sectionheader{
     background-color:#33458e;
     color:white;
     font-size:1.5em;
+    margin
 }
 h3{
     font-weight:600;
