@@ -2,3 +2,16 @@
     margin: 0 auto;
     width: 900px;
 }
+#headline {
+    font-size: 4em;
+}
+#name {
+    font-size: 2em;
+    padding-bottom: 25px;
+    font-style: italic;
+}
+#byline {
+    font-size: 1em;
+    font-style: italic;
+    padding-bottom: 25px;
+}
