@@ -1,9 +1,10 @@
 #content {
-    margin: 0 auto;
+    margin: 0px auto;
     width: 900px;
 }
 #headline {
     font-size: 4em;
+    font-family: Helvetica, sans-serif;
 }
 #name {
     font-size: 2em;
@@ -12,6 +13,28 @@
 }
 #byline {
     font-size: 1em;
+    font-family: Helvetica, sans-serif;
     font-style: italic;
     padding-bottom: 25px;
 }
+.picture {
+    max-width: 200px;
+    max-height: 200px;
+}
+#picture_1{
+    margin: 0px auto;
+    max-width: 800px;
+    max-height: 800px;
+}
+p{
+    font-family: Georgia;
+    font-size: 13px;
+}
+#pic_1_caption{
+    padding-bottom: 25px;
+    font-size: 13px;
+}
+blockquote {
+    text-align: left;
+}
+/* placement of this seems a bit awkward... hmm.*/ 
