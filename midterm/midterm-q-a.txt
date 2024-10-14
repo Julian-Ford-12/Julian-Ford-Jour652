@@ -31,28 +31,30 @@ A div tag helps to divide (what a coincidence!) elements within an html document
 3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
 
 
-
-
-
-
-
-
-
+<!--DOCTYPE html> 
+<html lang="en">
+	<head>
+	  <title>Basic html page</html>
+	</head>
+	<body> 
+	  <p>Hello, world! Here's some sample html for ya!</p>
+	</body>
+</html>
 
 
 4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
 
-
+You would put a stylesheet link in the head section, where the content can't be seen by users of the website/html file.
 
 5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
 
-
+Text, images, DIV tags, etc, would all go in the body section of an html page, where all content is visible for users of the file. 
 
 6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
 
 
-
-
+<div class="graphicbox">Graphic box</div>
+<div id="name">name</div>
 
 
 
@@ -60,35 +62,34 @@ A div tag helps to divide (what a coincidence!) elements within an html document
 7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
 
 
-
+<div id="apples" class="fruit">apple</div>
 
 
 8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
 
 
 
-
-
-
+.fruit{
+	color:#000000;
+     }
 
 
 9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
 
-
-
+It would be an "img" or "img src" tag. 
 
 10.  Why do we use media queries?
 
-
+Media queries allow us to edit html contents according to the size/space of a user's browser. For example, if the user shrank the window, the media query would allow us to adjust how the element appeared once shrunk. Shrink a window past a certain point, and we could make it change color, size, width, etc. 
 
 
 11. What is the main difference between a serif and a sans-serif font?
 
-
+Serif has little shapes at the tops and bottoms of letters called "ascenders" and "descenders." Sans-serif (literally "without serif" in French, thank you high school French) fonts don't have ascenders of descenders. 
 
 
 12. Which of the following is a hexadecimal code?
-#FFCC33
+#FFCC33 <- This is hexadecimal code. 
 123,543,242
 101010101
 -213
