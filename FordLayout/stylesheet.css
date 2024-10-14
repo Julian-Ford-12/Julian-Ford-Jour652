@@ -6,6 +6,12 @@
     font-size: 4em;
     font-family: Helvetica, sans-serif;
 }
+#masthead{
+    background-color: black;
+    color: white;
+    padding-bottom: 40px;
+    font-size: 25px;
+}
 #name {
     font-size: 2em;
     padding-bottom: 25px;
@@ -18,8 +24,8 @@
     padding-bottom: 25px;
 }
 .picture {
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 800px;
+    max-height: 800px;
 }
 #picture_1{
     margin: 0px auto;
@@ -30,11 +36,13 @@ p{
     font-family: Georgia;
     font-size: 13px;
 }
-#pic_1_caption{
+.pic_caption{
     padding-bottom: 25px;
     font-size: 13px;
 }
 blockquote {
     text-align: left;
+    font-style: italic;
+    font-size: 2em;
 }
 /* placement of this seems a bit awkward... hmm.*/ 
