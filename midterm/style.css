@@ -1,0 +1,22 @@
+/* maybe find a better one? */
+#headline{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+}
+/* looks strange, also set a diff font family before turning in */
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+#masthead{
+    background-color:rgb(5, 40, 196);
+    color: whitesmoke;
+    padding-bottom: 60px;
+    font-size: 4em;
+    width: 100%;
+}
