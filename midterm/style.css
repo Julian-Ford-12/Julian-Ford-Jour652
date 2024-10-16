@@ -13,14 +13,15 @@
 }
 /* maybe find a better one? */
 #headline{
-    font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
+    padding-top: 25px;
 }
 #name {
     font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
     padding-bottom: 25px;
-    font-style: italic;
+    padding-top: 25px;
 }
 #byline {
     font-size: 1em;
@@ -28,12 +29,13 @@
     font-style: italic;
     padding-bottom: 25px;
 }
-/* looks strange, also set a diff font family before turning in */
+/*Does this look okay Julian? Check before turning in.*/
 .heading{
     font-size: 25px;
     text-align: center;
     font-family: Georgia, sans-serif;
     padding-bottom: 25px;
+    padding-top: 25px;
 }
 body{
     font-family: Helvetica, Arial, sans-serif;
@@ -41,16 +43,23 @@ body{
 }
 /*Different font?*/
 img {
-    width: 500px;
+    width: 800px;
 }
 #pic_1{
     width:800px;
+}
+#double_pic{
+    width:850px;
+}
+.caption{
+    padding-bottom: 10px;
 }
 blockquote {
     text-align: left;
     font-style: italic;
     font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #last_pic{
-    width: 700px;
+    width: 900px;
 }
