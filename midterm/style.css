@@ -20,8 +20,12 @@
 #name {
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
-    padding-bottom: 25px;
     padding-top: 25px;
+}
+#date{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 25px;
 }
 #byline {
     font-size: 1em;
