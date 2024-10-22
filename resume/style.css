@@ -1,4 +1,8 @@
 /* styles for my resume */
+#masthead{
+    width: 100%;
+    height: 500px;
+}
 BODY {
     font-family: 'Open Sans', arial, sans-serif;
     font-size: 1em;
