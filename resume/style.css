@@ -144,7 +144,7 @@ strong {
     background-color:#33458e;
     width: 100%;
 }
-/*can't get this guy to work...*/
+/*can't get this guy to work... trying to get the writing beneath the masthead to match the writing in the masthead. Why isn't it working?*/
 @media screen and (max-width: 480px) {
     #new_title{
         color: teal;
