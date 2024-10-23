@@ -1,13 +1,32 @@
 /* styles for my resume */
 #masthead{
     width: 100%;
-    height: 500px;
+}
+/*#new_title{
+    text-align: right;
+    margin-right: 75px;
+    font-size: 75px;
+}*/
+.col-md-3{
+    text-align: center;
+}
+.bi-envelope{
+    font-size: 4em;
+}
+.bi-linkedin{
+    font-size: 4em;
+}
+.bi-twitter-x{
+    font-size: 4em;
+}
+.bi-github{
+    font-size: 4em;
 }
 BODY {
     font-family: 'Open Sans', arial, sans-serif;
     font-size: 1em;
-    color:#444
-    font-weight:400;
+    /*color:#444;*/
+    font-weight: 400;
 }
 #container{
     width:100%;
@@ -22,6 +41,7 @@ BODY {
     text-align:center;
     color:#33458e;
     border-bottom: 1px solid #33458e;
+    border-top: 30px;
     width: 60%;
     min-width: 300px;
     margin:0px auto;
@@ -33,15 +53,18 @@ strong {
 }
 /*Only three of these in the resume*/
 .sectionheader{
-    background-color:#33458e;
-    color:white;
+    /*background-color:#6c2e18;*/
+    color:#33458e;
     font-size:1.5em;
     margin-top: 20px;
     margin-bottom: 10px;
     margin-left: 0px;
     margin-right: 0px;
-    width: 70%;
+    width: 30%;
     min-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
 }
 .jobtitle{
     font-weight:600;
