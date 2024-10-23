@@ -26,6 +26,30 @@
 .bi-github{
     font-size: 4em;
 }
+.bi-cup-hot-fill{
+    color:#33458e;
+    font-size: 3em;
+}
+.bi-pencil-square{
+    color:#33458e;
+    font-size: 3em;
+}
+.bi-newspaper{
+    color:#33458e;
+    font-size: 3em;
+}
+.bi-book-half{
+    color:#33458e;
+    font-size: 3em;
+}
+.bi-highlighter{
+    color:#33458e;
+    font-size: 3em;
+}
+.bi-mortarboard-fill{
+    color:#33458e;
+    font-size: 3em;
+}
 BODY {
     font-family: 'Open Sans', arial, sans-serif;
     font-size: 1em;
@@ -57,36 +81,48 @@ strong {
 }
 /*Only three of these in the resume*/
 .sectionheader{
-    /*background-color:#6c2e18;*/
-    color:#33458e;
+    background-color:#33458e;
+    color:white;
     font-size:1.5em;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-left: 0px;
     margin-right: 0px;
-    width: 30%;
-    min-width: 300px;
-    margin: 0 auto;
+    min-width: 100%;
     text-align: center;
     font-size: 50px;
-    border-bottom: 1px solid #33458e;
+    border: 500px;
 }
 .jobtitle{
     font-weight:600;
     font-size:1.5em;
+    text-align: center;
+    border-top: 15px;
 }
 .organization{
     font-size:1.25em;
+    text-align: center;
 }
 /*do I need to specify "margin-left: 0px" and "margin-right: 0px" or is that an automatic process? */
 .date{
     font-style: italic;
     margin-top: 2px;
+    text-align: center;
 }
 .description{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.school{
+    font-size: 25px;
+}
+#umd{
+    color: red
+}
+#umbc{
+    color:rgb(223, 223, 35);
+}
+/*put education here*/
 .menu{
     margin:0px;
     padding: 0px;
