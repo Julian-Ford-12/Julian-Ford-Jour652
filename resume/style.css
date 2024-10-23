@@ -9,7 +9,11 @@
 }
 .col-md-3{
     text-align: center;
+    color: white;
 }
+.og_color {
+    color:inherit;
+ }
 .bi-envelope{
     font-size: 4em;
 }
@@ -32,7 +36,7 @@ BODY {
     width:100%;
     max-width: 1200px;
     margin: 0px auto;
-    padding-bottom:50px;
+    padding-bottom:25px;
 }
 /*change h1 here right? Clarify with professor next class */
 #name {
@@ -100,9 +104,13 @@ strong {
     text-align: center;
     margin-top: 20px;
 }
-/*can't get this guy to work...*/
-@media screen and (max-width: 500px) {
-    #new_title {
-        background-color: teal;
-    }
+.footer{
+    background-color:#33458e;
+    width: 100%;
 }
+/*can't get this guy to work...*/
+@media screen and (max-width: 480px) {
+    #new_title{
+        color: teal;
+    }
+   }
