@@ -132,7 +132,9 @@ strong {
     margin-top: 5px;
 }
 #do{
-    margin-top: 5px;
+   border: 5px solid #33458e;
+   font-family: 'Open Sans', arial, sans-serif;
+   font-size: 24px;
 }
 /* Had to double check that text-align was the right command for centering text.*/
 #title{
