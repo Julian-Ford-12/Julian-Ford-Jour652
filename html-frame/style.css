@@ -1,0 +1,44 @@
+#container{
+    width: 900px;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#headline{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    padding-top: 25px;
+}
+#byline {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 25px;
+    text-align: center;
+    }
+.chapter_headline{
+    text-align: left;
+    margin-left: 25px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.chapter_text{
+    text-align: left;
+}
+#jamesjoyce{
+    width: 500px;
+}
+.caption{
+    text-align: left;
+    margin-left: 200px;
+}
+.col-md-4{
+    text-align: center;
+    font-size: 2em;
+    padding-top: 25px;
+}
+#footer{
+    background-color: aquamarine;
+    width: 100%;
+    text-align: center;
+}
