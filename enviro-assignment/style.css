@@ -1,14 +1,23 @@
+.content{
+    background-color: black;
+}
+
 #container{
     width: 900px;
     margin: 0px auto;
     padding-bottom: 50px;
+    padding-top: 0pc;
     text-align: center;
+    color: white;
+    /*border-left: 50px solid red;
+    border-right: 50px solid red;*/
 }
 #headline{
     font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
     padding-top: 25px;
 }
+
 #byline {
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
@@ -35,11 +44,24 @@
     opacity: .7;
 }
 
+.courier-prime-regular {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 .hero-headline{
     padding-top: 10px;
     margin: 0 auto;
     font-size: 6em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: /*"Courier Prime"*/, 'Times New Roman', Times, serif;
+}
+
+.hero-sub-headline{
+    padding-top: 10px;
+    margin: 0 auto;
+    font-size: 2em;
+    font-family: "Courier Prime", 'Times New Roman', Times, serif;
 }
 
 
@@ -53,12 +75,22 @@
     text-align: left;
 }
 
+#sonia_pic{
+    width:100%;
+}
+
+#grace{
+    width: 100%;
+}
+
 .quote{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Courier Prime", Arial, Helvetica, sans-serif;
     color: #F23030;
     font-size: 3em;
     font-weight: 700;
-    text-align: left;
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid #F23030;
 }
 
 #jamesjoyce{
